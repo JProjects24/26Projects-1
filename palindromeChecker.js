@@ -11,3 +11,10 @@ console.log(reverseArray);
 //puts array back into string
 let reverseAnswer = reverseArray.join("");
 console.log(reverseAnswer);
+
+if (reverseAnswer === answer) {
+    console.log("Palindrome!");
+}
+else {
+    console.log("No palindrome");
+}
